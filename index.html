@@ -53,13 +53,11 @@
         <br>
         <p><b>An Application to find the Information <br> about a github user just by one click.</b></p>
         <br><br>
-        <form>
           <div class="form-group text-success">
             <label for="search"><b>Enter Username</b></label>
-            <input type="text" class="form-control input" placeholder="somebody">
+            <input type="text" class="form-control input" id="input">
           </div>
-          <button type="submit" class="btn btn-success"><b>Search</b></button>
-        </form>
+          <button type="submit" class="btn btn-success" id="search"><b>Search</b></button>
 
       </div>
 
@@ -68,14 +66,16 @@
       <div class="col-md-4 data">
         <img src="anas.jpg" width="90px" height="90"  style="border-radius: 50%;"  ><br><br>
 
-        <h5 class="text-success"><b>Name : <span style="font-style: italic; margin-left: 20px; color: white;"> Mohammad Anas </span></b></h5>
-        <h5 class="text-success"><b>Repository : <span style="font-style: italic; margin-left: 20px; color: white;">22</span></b></h5>
-        <h5 class="text-success"><b>Username : <span style="font-style: italic; margin-left: 20px; color: white;">anasM0hammad</span></b></h5>
-        <h5 class="text-success"><b>Url : <span style="font-style: italic; margin-left: 20px; color: white;">http://github/anasM0hammad</span></b></h5>
+        <h5 class="text-success" id="name"><b>Name : <span style="font-style: italic; margin-left: 20px; color: white;"> Mohammad Anas </span></b></h5>
+        <h5 class="text-success" id="repo"><b>Repository : <span style="font-style: italic; margin-left: 20px; color: white;">22</span></b></h5>
+        <h5 class="text-success" id="un"><b>Username : <span style="font-style: italic; margin-left: 20px; color: white;">anasM0hammad</span></b></h5>
+        <h5 class="text-success" id="url"><b>Url : <span style="font-style: italic; margin-left: 20px; color: white;">http://github/anasM0hammad</span></b></h5>
 
 
       </div>
     </div>
+
+    <script type="text/javascript" src="script.js"></script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
