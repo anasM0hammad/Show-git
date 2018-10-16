@@ -34,11 +34,11 @@ const showData = () => {
       else{
 
     	image.src=result.data.avatar_url;
-    	name.innerHTML = `<span style="font-style: italic; margin-left: 20px; color: white;" id="name"> ${result.data.name}</span>` ;
-    	repo.innerHTML = `<span style="font-style: italic; margin-left: 20px; color: white;" id="repo"> ${result.data.public_repos}</span>` ;
-    	un.innerHTML = `<span style="font-style: italic; margin-left: 20px; color: white;" id="un"> ${result.data.login}</span>` ;
-    	followers.innerHTML = `<span style="font-style: italic; margin-left: 20px; color: white;" id="followers"> ${result.data.followers}</span>` ;
-    url.innerHTML = `<span style="font-style: italic; margin-left: 20px; color: white;" id="url"><a href="${result.data.html_url}">Click Here</a></span></b></h5>`;
+    	name.innerHTML = ${result.data.name};
+    	repo.innerHTML = {result.data.public_repos} ;
+    	un.innerHTML = ${result.data.login} ;
+    	followers.innerHTML = ${result.data.followers};
+     url.innerHTML = ${result.data.html_url};
 }
     }).catch(error => console.log(error))
 
